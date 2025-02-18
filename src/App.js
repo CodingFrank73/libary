@@ -1,14 +1,13 @@
 import './App.css';
+import BooksList from './BooksList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Dies ist das Haus von Nikolaus.....
-        </p>
-      </header>
+    <div>
+      <h1>Hello React</h1>
+      <BooksList />
     </div>
+    
   );
 }
 
